@@ -9,6 +9,6 @@
 class Pages extends Controller
 {
    public function index(){
-       echo "<h1>Hello World</h1>";
+       $this->view('pages/index', ['test'=> 'Getting Started']);
    }
 }
